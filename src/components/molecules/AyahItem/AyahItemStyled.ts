@@ -7,6 +7,7 @@ export const AyahHeader = styled.div`
 	justify-content: space-between;
 	align-items: center;
 	padding: 0.5rem 1rem;
+	margin-bottom: 1.5rem;
 	background: #f8f5fc;
 	border-radius: 10px;
 

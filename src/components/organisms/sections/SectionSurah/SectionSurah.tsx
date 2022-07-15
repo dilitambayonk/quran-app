@@ -2,6 +2,8 @@ import { useRouter } from "next/router"
 import { useEffect, useState } from "react"
 import { serviceAPI } from "../../../../services/API"
 import Divider from "../../../atoms/Divider/Divider"
+import ErrorMessage from "../../../atoms/ErrorMessage/ErrorMessage"
+import Loader from "../../../atoms/Loader/Loader"
 import AyahItem from "../../../molecules/AyahItem/AyahItem"
 import CardSurah from "../../../molecules/CardSurah/CardSurah"
 import { ListAyah } from "./SectionSurahStyled"
@@ -48,6 +50,8 @@ const SectionSurah = () => {
 					</ListAyah>
 				</>
 			)}
+			{loading && <Loader />}
+			{error && <ErrorMessage />}
 		</>
 	)
 }

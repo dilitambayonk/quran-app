@@ -1,6 +1,8 @@
 import { useEffect, useState } from "react"
 import { serviceAPI } from "../../../../services/API"
 import { DividerStyle } from "../../../atoms/Divider/DividerStyled"
+import ErrorMessage from "../../../atoms/ErrorMessage/ErrorMessage"
+import Loader from "../../../atoms/Loader/Loader"
 import CardTitle from "../../../molecules/CardTitle/CardTitle"
 import SurahItem from "../../../molecules/SurahItem/SurahItem"
 import { ListSurah } from "./SectionHomeStyled"
@@ -40,6 +42,8 @@ const SectionHome = () => {
 					))}
 				</ListSurah>
 			)}
+			{loading && <Loader />}
+			{error && <ErrorMessage />}
 		</>
 	)
 }
