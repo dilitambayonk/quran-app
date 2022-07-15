@@ -1,7 +1,11 @@
 import { DividerStyle } from "./DividerStyled"
 
-const Divider = () => {
-	return <DividerStyle />
+interface DividerInterface {
+	maxWitdh?: string
+}
+
+const Divider = (props: DividerInterface) => {
+	return <DividerStyle maxWitdh={props.maxWitdh} />
 }
 
 export default Divider
