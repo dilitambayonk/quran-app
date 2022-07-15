@@ -2,9 +2,9 @@
 
 Al-Quran Indonesia dengan terjemahan, tafsir (Kemenag, Quraish Shihab, Al-Jalalain) dan audio murottal
 
-### [Live Demo](https://quran-app-eta.vercel.app)
+### [Live App](https://quran-app-eta.vercel.app)
 
-### Tech Stack
+## Tech Stack
 
 - Typescript
 - NextJs
@@ -12,11 +12,11 @@ Al-Quran Indonesia dengan terjemahan, tafsir (Kemenag, Quraish Shihab, Al-Jalala
 - React Icons
 - Axios
 
-### API Source
+## API Source
 
 Datas from public API [Quran API ID](https://github.com/renomureza/quran-api-id)
 
-### Script
+## Script
 
 - Installation
 
@@ -33,6 +33,13 @@ npm run dev
 ```bash
 npm run build
 ```
+
+## Screenshot
+
+![Screenshot Home](https://github.com/dilitambayonk/quran-app/blob/main/public/src/images/quran-app-home.png)
+
+![Screenshot Surah](https://github.com/dilitambayonk/quran-app/blob/main/public/src/images/quran-app-surah.png)
+
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
