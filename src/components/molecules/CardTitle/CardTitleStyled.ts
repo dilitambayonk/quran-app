@@ -7,6 +7,7 @@ export const Card = styled.div`
 	background: rgb(104, 44, 187);
 	background: linear-gradient(0deg, rgba(104, 44, 187, 1) 20%, rgba(140, 89, 208, 1) 100%);
 	border-radius: 10px;
+	overflow: hidden;
 `
 
 export const Salam = styled.div`
@@ -28,6 +29,6 @@ export const Description = styled.div`
 
 export const WrapperImage = styled.span`
 	position: absolute;
-	right: 0;
-	bottom: 0;
+	right: -20px;
+	bottom: -20px;
 `
