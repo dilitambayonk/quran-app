@@ -13,6 +13,7 @@ export const SurahNumber = styled.div`
 `
 export const Number = styled.span`
 	position: absolute;
+	font-size: 0.8em;
 	font-weight: 600;
 	top: 50%;
 	left: 50%;
