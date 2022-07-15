@@ -17,7 +17,7 @@ export const Salam = styled.div`
 export const Title = styled.div`
 	margin-top: 1rem;
 	margin-bottom: 0.5rem;
-	font-size: 1.8em;
+	font-size: 2em;
 	font-weight: 700;
 `
 
