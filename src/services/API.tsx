@@ -10,6 +10,15 @@ const getListSurah = async () => {
 	}
 }
 
+const getSurahDetail = async (numSurah: number) => {
+	try {
+		return await axios.get(`${URL}/surahs/${numSurah}`)
+	} catch (error: any) {
+		console.error(error.message)
+	}
+}
+
 export const serviceAPI = {
 	getListSurah,
+	getSurahDetail,
 }
